@@ -1,0 +1,41 @@
+/* Seleção por classe */
+.page-category-tv {
+  h1 {
+    color: green;
+  }
+}
+
+/* Seleção por classe pai */
+.page-category-acessorios {
+  /* seleção por tag */
+  h1 {
+    color: purple;
+  }
+}
+
+h1 {
+  text-transform: uppercase;
+}
+
+* {
+  color: orange;
+}
+
+p {
+  color: red;
+}
+
+#text-special::first-letter {
+  color: grey;
+}
+
+.text-default {
+  color: violet;
+}
+
+.btn {
+  background-color: grey;
+}
+.btn:hover {
+  background-color: aqua;
+}
