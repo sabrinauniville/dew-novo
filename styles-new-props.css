@@ -1,0 +1,38 @@
+/* Imagem de fundo, centralizada, sem repetir a imagem */
+/* Seleção por classe banner */
+.banner {
+  /* background-image: url(https://a-static.mlcdn.com.br/1500x1500/smart-tv-crystal-uhd-4k-led-55-samsung-55tu8000-wi-fi-bluetooth-hdr-3-hdmi-2-usb/magazineluiza/225605800/e32aa79079e21db1b00d012aa94676f9.jpg); */
+  background-image: url(./images/imagem-tv.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 400px;
+  width: 100%;
+  padding: 30px;
+}
+
+.banner h1 {
+  text-align: center;
+}
+
+.hide {
+  display: none;
+}
+
+/* Fixar listagem no topo */
+.nav {
+  position: sticky;
+  top: 0;
+}
+
+.nav li {
+  z-index: 1;
+}
+
+/* Espaçamento interno */
+body {
+  padding: 20px;
+}
+
+a:hover {
+  opacity: 0.5;
+}
