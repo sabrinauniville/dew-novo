@@ -36,3 +36,34 @@ body {
 a:hover {
   opacity: 0.5;
 }
+
+.products img {
+  /* Uso de medidas relativas para se ajustar automaticamente em variados tipos de telas */
+  height: auto;
+  width: 100%;
+}
+
+.products {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  justify-content: center;
+
+  /* Definição de quebra de linha dos elementos irmãos */
+  flex-wrap: wrap;
+}
+
+.product-card {
+  /* flex: 1 1 30%;
+  Significa a mesma coisa que: */
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 30%;
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+
+  /* Ordenação e espaçamentos */
+  align-items: center;
+  
+}
